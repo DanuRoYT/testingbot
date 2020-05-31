@@ -1,0 +1,19 @@
+{
+  "name": "snipezbot",
+  "version": "1.0.0",
+  "description": "A bot for Snipez",
+  "main": "index.js",
+  "scripts": {
+    "start": "cls && node index.js",
+    "dev": "cls && nodemon index.js"
+  },
+  "author": "xNaudYT",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2"
+  }
+}
